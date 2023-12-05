@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Compound Interest Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <h1 id="text">
-        Better Compound Interest Calculator
+        Compound Interest Calculator
     </h1>
 
     <div id="main">
@@ -21,7 +21,6 @@
         <div id="input-container">
 
             <input type="text" class="input-box" id="ib-grossSalary" placeholder="$50,000">
-            <!-- <span class="tooltiptext">Enter your name</span> -->
             <input type="text" class="input-box" id="ib-contributionPercent" placeholder="10%">
             <input type="text" class="input-box" id="ib-initialInvestment" placeholder="$10,000">
             <input type="text" class="input-box" id="ib-rateOfReturn" placeholder="6%">
@@ -45,15 +44,10 @@
 
     </div>
 
-    <!-- <script src="script.js"></script> -->
-    <!-- <script src="plotly_test.js"></script> -->
-    <script src="./objects/compoundInterestCalculator.js"></script>
-    <!-- <script src="./objects/getInputs.js"></script> -->
-    <script src="./objects/graph.js"></script>
-    <!-- <script src="./objects/setBalance.js"></script> -->
-    <script src="./objects/helpers.js"></script>
+    <script src="./src/compoundInterestCalculator.js"></script>
+    <script src="./src/graph.js"></script>
+    <script src="./src/helpers.js"></script>
+    <script src="./src/displayDefaultPlot.js"></script>
     <script src="script.js"></script>
-
-    <script src="main.js"></script>
 </body>
 </html>
